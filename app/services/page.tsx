@@ -1,0 +1,3 @@
+import { PageIntro, ServiceCards, CTA } from '@/components/content';
+export const metadata={title:'خدمات'};
+export default function Page(){return <><PageIntro eyebrow="راهکارهای همراه" title="کارهای روزمره، ساده‌تر از همیشه" description="مجموعه‌ای از خدمات کاربردی برای کمک به مدیریت و رشد کسب‌وکارهای کوچک."/><section className="section container"><div className="mb-9"><h2 className="text-2xl font-bold">ابزارهایی برای کنار هم رشد کردن</h2><p className="muted mt-3 text-sm">این خدمات نمونه‌ای از مسیر پیش روی همراه هستند و جزئیات آن‌ها به‌مرور تکمیل می‌شود.</p></div><ServiceCards/></section><CTA/></>}
